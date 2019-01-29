@@ -1,0 +1,6 @@
+framework module Pods_MSIT___NotifierTests {
+  umbrella header "Pods-MSIT - NotifierTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

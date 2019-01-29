@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3809C5846AD41F1F082C410F /* Pods_MSIT___Notifier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBAE5FFC47F21F29B9D0FAF /* Pods_MSIT___Notifier.framework */; };
+		6240FBBB4299E68B946C312C /* Pods_MSIT___NotifierTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BECD51DBEBF30F7472C919 /* Pods_MSIT___NotifierTests.framework */; };
+		CE8E968CD72FE7DAACA00B81 /* Pods_MSIT___NotifierUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B00FE95DB4FB508D238280 /* Pods_MSIT___NotifierUITests.framework */; };
+		FD78662E21F18FE20028B71E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD78662D21F18FE20028B71E /* AppDelegate.swift */; };
+		FD78663021F18FE20028B71E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD78662F21F18FE20028B71E /* ViewController.swift */; };
+		FD78663321F18FE30028B71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD78663121F18FE30028B71E /* Main.storyboard */; };
+		FD78663621F18FE30028B71E /* MSIT___Notifier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD78663421F18FE30028B71E /* MSIT___Notifier.xcdatamodeld */; };
+		FD78663821F18FE60028B71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD78663721F18FE60028B71E /* Assets.xcassets */; };
+		FD78663B21F18FE60028B71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD78663921F18FE60028B71E /* LaunchScreen.storyboard */; };
+		FD78664621F18FE60028B71E /* MSIT___NotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD78664521F18FE60028B71E /* MSIT___NotifierTests.swift */; };
+		FD78665121F18FE60028B71E /* MSIT___NotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD78665021F18FE60028B71E /* MSIT___NotifierUITests.swift */; };
+		FD78665F21F197DA0028B71E /* EmailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD78665E21F197DA0028B71E /* EmailsViewController.swift */; };
+		FD78666121F1C5E50028B71E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD78666021F1C5E50028B71E /* Response.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD78664221F18FE60028B71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD78662221F18FE20028B71E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD78662921F18FE20028B71E;
+			remoteInfo = "MSIT - Notifier";
+		};
+		FD78664D21F18FE60028B71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD78662221F18FE20028B71E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD78662921F18FE20028B71E;
+			remoteInfo = "MSIT - Notifier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		068E66B6B15CFCD15B442CC5 /* Pods-MSIT - NotifierTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSIT - NotifierTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSIT - NotifierTests/Pods-MSIT - NotifierTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A3E1FB619ED524A24DB56E1 /* Pods-MSIT - Notifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSIT - Notifier.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSIT - Notifier/Pods-MSIT - Notifier.release.xcconfig"; sourceTree = "<group>"; };
+		37B00FE95DB4FB508D238280 /* Pods_MSIT___NotifierUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_MSIT___NotifierUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5473BAD16DC39146ECF71E2C /* Pods-MSIT - NotifierUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSIT - NotifierUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSIT - NotifierUITests/Pods-MSIT - NotifierUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CB15066635615065B913866 /* Pods-MSIT - NotifierTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSIT - NotifierTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSIT - NotifierTests/Pods-MSIT - NotifierTests.release.xcconfig"; sourceTree = "<group>"; };
+		978789D0057FC33AA5D462A4 /* Pods-MSIT - NotifierUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSIT - NotifierUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSIT - NotifierUITests/Pods-MSIT - NotifierUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9CBAE5FFC47F21F29B9D0FAF /* Pods_MSIT___Notifier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_MSIT___Notifier.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BECD51DBEBF30F7472C919 /* Pods_MSIT___NotifierTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_MSIT___NotifierTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D12B3D4FCDE2948765B376C6 /* Pods-MSIT - Notifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSIT - Notifier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSIT - Notifier/Pods-MSIT - Notifier.debug.xcconfig"; sourceTree = "<group>"; };
+		FD78662A21F18FE20028B71E /* MSIT - Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MSIT - Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD78662D21F18FE20028B71E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD78662F21F18FE20028B71E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD78663221F18FE30028B71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD78663521F18FE30028B71E /* MSIT___Notifier.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MSIT___Notifier.xcdatamodel"; sourceTree = "<group>"; };
+		FD78663721F18FE60028B71E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD78663A21F18FE60028B71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD78663C21F18FE60028B71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD78664121F18FE60028B71E /* MSIT - NotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MSIT - NotifierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD78664521F18FE60028B71E /* MSIT___NotifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MSIT___NotifierTests.swift"; sourceTree = "<group>"; };
+		FD78664721F18FE60028B71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD78664C21F18FE60028B71E /* MSIT - NotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MSIT - NotifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD78665021F18FE60028B71E /* MSIT___NotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MSIT___NotifierUITests.swift"; sourceTree = "<group>"; };
+		FD78665221F18FE60028B71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD78665E21F197DA0028B71E /* EmailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailsViewController.swift; sourceTree = "<group>"; };
+		FD78666021F1C5E50028B71E /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD78662721F18FE20028B71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3809C5846AD41F1F082C410F /* Pods_MSIT___Notifier.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD78663E21F18FE60028B71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6240FBBB4299E68B946C312C /* Pods_MSIT___NotifierTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD78664921F18FE60028B71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E968CD72FE7DAACA00B81 /* Pods_MSIT___NotifierUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1211C175BCACC05D37936469 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D12B3D4FCDE2948765B376C6 /* Pods-MSIT - Notifier.debug.xcconfig */,
+				1A3E1FB619ED524A24DB56E1 /* Pods-MSIT - Notifier.release.xcconfig */,
+				068E66B6B15CFCD15B442CC5 /* Pods-MSIT - NotifierTests.debug.xcconfig */,
+				5CB15066635615065B913866 /* Pods-MSIT - NotifierTests.release.xcconfig */,
+				5473BAD16DC39146ECF71E2C /* Pods-MSIT - NotifierUITests.debug.xcconfig */,
+				978789D0057FC33AA5D462A4 /* Pods-MSIT - NotifierUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8323EFE334FFCC1D311BEA99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CBAE5FFC47F21F29B9D0FAF /* Pods_MSIT___Notifier.framework */,
+				C2BECD51DBEBF30F7472C919 /* Pods_MSIT___NotifierTests.framework */,
+				37B00FE95DB4FB508D238280 /* Pods_MSIT___NotifierUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD78662121F18FE20028B71E = {
+			isa = PBXGroup;
+			children = (
+				FD78662C21F18FE20028B71E /* MSIT - Notifier */,
+				FD78664421F18FE60028B71E /* MSIT - NotifierTests */,
+				FD78664F21F18FE60028B71E /* MSIT - NotifierUITests */,
+				FD78662B21F18FE20028B71E /* Products */,
+				1211C175BCACC05D37936469 /* Pods */,
+				8323EFE334FFCC1D311BEA99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD78662B21F18FE20028B71E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD78662A21F18FE20028B71E /* MSIT - Notifier.app */,
+				FD78664121F18FE60028B71E /* MSIT - NotifierTests.xctest */,
+				FD78664C21F18FE60028B71E /* MSIT - NotifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD78662C21F18FE20028B71E /* MSIT - Notifier */ = {
+			isa = PBXGroup;
+			children = (
+				FD78662D21F18FE20028B71E /* AppDelegate.swift */,
+				FD78666021F1C5E50028B71E /* Response.swift */,
+				FD78662F21F18FE20028B71E /* ViewController.swift */,
+				FD78665E21F197DA0028B71E /* EmailsViewController.swift */,
+				FD78663121F18FE30028B71E /* Main.storyboard */,
+				FD78663721F18FE60028B71E /* Assets.xcassets */,
+				FD78663921F18FE60028B71E /* LaunchScreen.storyboard */,
+				FD78663C21F18FE60028B71E /* Info.plist */,
+				FD78663421F18FE30028B71E /* MSIT___Notifier.xcdatamodeld */,
+			);
+			path = "MSIT - Notifier";
+			sourceTree = "<group>";
+		};
+		FD78664421F18FE60028B71E /* MSIT - NotifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD78664521F18FE60028B71E /* MSIT___NotifierTests.swift */,
+				FD78664721F18FE60028B71E /* Info.plist */,
+			);
+			path = "MSIT - NotifierTests";
+			sourceTree = "<group>";
+		};
+		FD78664F21F18FE60028B71E /* MSIT - NotifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD78665021F18FE60028B71E /* MSIT___NotifierUITests.swift */,
+				FD78665221F18FE60028B71E /* Info.plist */,
+			);
+			path = "MSIT - NotifierUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD78662921F18FE20028B71E /* MSIT - Notifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD78665521F18FE60028B71E /* Build configuration list for PBXNativeTarget "MSIT - Notifier" */;
+			buildPhases = (
+				21B4E205B2266A91538F84BF /* [CP] Check Pods Manifest.lock */,
+				FD78662621F18FE20028B71E /* Sources */,
+				FD78662721F18FE20028B71E /* Frameworks */,
+				FD78662821F18FE20028B71E /* Resources */,
+				A193E84A32C6439AA410DB9C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MSIT - Notifier";
+			productName = "MSIT - Notifier";
+			productReference = FD78662A21F18FE20028B71E /* MSIT - Notifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD78664021F18FE60028B71E /* MSIT - NotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD78665821F18FE60028B71E /* Build configuration list for PBXNativeTarget "MSIT - NotifierTests" */;
+			buildPhases = (
+				B24248ABA934323019C7C613 /* [CP] Check Pods Manifest.lock */,
+				FD78663D21F18FE60028B71E /* Sources */,
+				FD78663E21F18FE60028B71E /* Frameworks */,
+				FD78663F21F18FE60028B71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD78664321F18FE60028B71E /* PBXTargetDependency */,
+			);
+			name = "MSIT - NotifierTests";
+			productName = "MSIT - NotifierTests";
+			productReference = FD78664121F18FE60028B71E /* MSIT - NotifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD78664B21F18FE60028B71E /* MSIT - NotifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD78665B21F18FE60028B71E /* Build configuration list for PBXNativeTarget "MSIT - NotifierUITests" */;
+			buildPhases = (
+				6C08BF5318CF864C5911AB39 /* [CP] Check Pods Manifest.lock */,
+				FD78664821F18FE60028B71E /* Sources */,
+				FD78664921F18FE60028B71E /* Frameworks */,
+				FD78664A21F18FE60028B71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD78664E21F18FE60028B71E /* PBXTargetDependency */,
+			);
+			name = "MSIT - NotifierUITests";
+			productName = "MSIT - NotifierUITests";
+			productReference = FD78664C21F18FE60028B71E /* MSIT - NotifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD78662221F18FE20028B71E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Verved;
+				TargetAttributes = {
+					FD78662921F18FE20028B71E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FD78664021F18FE60028B71E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD78662921F18FE20028B71E;
+					};
+					FD78664B21F18FE60028B71E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FD78662921F18FE20028B71E;
+					};
+				};
+			};
+			buildConfigurationList = FD78662521F18FE20028B71E /* Build configuration list for PBXProject "MSIT - Notifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD78662121F18FE20028B71E;
+			productRefGroup = FD78662B21F18FE20028B71E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD78662921F18FE20028B71E /* MSIT - Notifier */,
+				FD78664021F18FE60028B71E /* MSIT - NotifierTests */,
+				FD78664B21F18FE60028B71E /* MSIT - NotifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD78662821F18FE20028B71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD78663B21F18FE60028B71E /* LaunchScreen.storyboard in Resources */,
+				FD78663821F18FE60028B71E /* Assets.xcassets in Resources */,
+				FD78663321F18FE30028B71E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD78663F21F18FE60028B71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD78664A21F18FE60028B71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21B4E205B2266A91538F84BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSIT - Notifier-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C08BF5318CF864C5911AB39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSIT - NotifierUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A193E84A32C6439AA410DB9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MSIT - Notifier/Pods-MSIT - Notifier-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSIT - Notifier/Pods-MSIT - Notifier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B24248ABA934323019C7C613 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSIT - NotifierTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD78662621F18FE20028B71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD78663021F18FE20028B71E /* ViewController.swift in Sources */,
+				FD78662E21F18FE20028B71E /* AppDelegate.swift in Sources */,
+				FD78663621F18FE30028B71E /* MSIT___Notifier.xcdatamodeld in Sources */,
+				FD78665F21F197DA0028B71E /* EmailsViewController.swift in Sources */,
+				FD78666121F1C5E50028B71E /* Response.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD78663D21F18FE60028B71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD78664621F18FE60028B71E /* MSIT___NotifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD78664821F18FE60028B71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD78665121F18FE60028B71E /* MSIT___NotifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD78664321F18FE60028B71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD78662921F18FE20028B71E /* MSIT - Notifier */;
+			targetProxy = FD78664221F18FE60028B71E /* PBXContainerItemProxy */;
+		};
+		FD78664E21F18FE60028B71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD78662921F18FE20028B71E /* MSIT - Notifier */;
+			targetProxy = FD78664D21F18FE60028B71E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD78663121F18FE30028B71E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD78663221F18FE30028B71E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD78663921F18FE60028B71E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD78663A21F18FE60028B71E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD78665321F18FE60028B71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD78665421F18FE60028B71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD78665621F18FE60028B71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12B3D4FCDE2948765B376C6 /* Pods-MSIT - Notifier.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = "MSIT - Notifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.verved.MSIT---Notifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD78665721F18FE60028B71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A3E1FB619ED524A24DB56E1 /* Pods-MSIT - Notifier.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = "MSIT - Notifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.verved.MSIT---Notifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD78665921F18FE60028B71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 068E66B6B15CFCD15B442CC5 /* Pods-MSIT - NotifierTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = "MSIT - NotifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.verved.MSIT---NotifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSIT - Notifier.app/MSIT - Notifier";
+			};
+			name = Debug;
+		};
+		FD78665A21F18FE60028B71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB15066635615065B913866 /* Pods-MSIT - NotifierTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = "MSIT - NotifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.verved.MSIT---NotifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSIT - Notifier.app/MSIT - Notifier";
+			};
+			name = Release;
+		};
+		FD78665C21F18FE60028B71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5473BAD16DC39146ECF71E2C /* Pods-MSIT - NotifierUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = "MSIT - NotifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.verved.MSIT---NotifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MSIT - Notifier";
+			};
+			name = Debug;
+		};
+		FD78665D21F18FE60028B71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978789D0057FC33AA5D462A4 /* Pods-MSIT - NotifierUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SY99V8Y8S;
+				INFOPLIST_FILE = "MSIT - NotifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "in.verved.MSIT---NotifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MSIT - Notifier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD78662521F18FE20028B71E /* Build configuration list for PBXProject "MSIT - Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD78665321F18FE60028B71E /* Debug */,
+				FD78665421F18FE60028B71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD78665521F18FE60028B71E /* Build configuration list for PBXNativeTarget "MSIT - Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD78665621F18FE60028B71E /* Debug */,
+				FD78665721F18FE60028B71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD78665821F18FE60028B71E /* Build configuration list for PBXNativeTarget "MSIT - NotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD78665921F18FE60028B71E /* Debug */,
+				FD78665A21F18FE60028B71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD78665B21F18FE60028B71E /* Build configuration list for PBXNativeTarget "MSIT - NotifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD78665C21F18FE60028B71E /* Debug */,
+				FD78665D21F18FE60028B71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD78663421F18FE30028B71E /* MSIT___Notifier.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD78663521F18FE30028B71E /* MSIT___Notifier.xcdatamodel */,
+			);
+			currentVersion = FD78663521F18FE30028B71E /* MSIT___Notifier.xcdatamodel */;
+			path = "MSIT___Notifier.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD78662221F18FE20028B71E /* Project object */;
+}
