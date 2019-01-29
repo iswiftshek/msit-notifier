@@ -20,11 +20,11 @@ Before you begin, you should already have the Xcode downloaded and set up correc
 
 ## Setting up the iOS Project
 
-1. Download the _quizzy-ios-application_ project source. You can do this either by forking and cloning the repository (recommended if you plan on pushing changes) or by downloading it as a ZIP file and extracting it.
+1. Download the _msit-notifier_ project source. You can do this either by forking and cloning the repository (recommended if you plan on pushing changes) or by downloading it as a ZIP file and extracting it.
 
 2. Navigate to the unzipped folder and run pod install.
 
-3. Open `QuiziOSApp.xcodeproj` from the folder.
+3. Open `MSIT - Notifier.xcworkspace` from the folder.
 
 4. Build the project (⌘+B) and check for any errors.
 
